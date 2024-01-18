@@ -1,5 +1,11 @@
 {% extends 'base.html' %}
 
+{% block style %}
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'vueTest/css/homepage.css' %}">
+{% endblock %}
+
+
 {% block content %}
     HomePage <br>
     <br>
